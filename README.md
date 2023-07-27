@@ -70,8 +70,10 @@ Waterminder는 2019년 앱스토어 올해의 앱으로 선정된 개인의 수�
 2. FireStore 구조
    - 데이터는 firebase의 FireStore를 통해 저장함
    - 유저데이터 저장 구조
+     
      <img width="284" alt="image" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/42063128-e57f-4d83-85c9-51abcbdb8ee3">
    - 음료 데이터 저장 구조
+     
      <img width="284" alt="image" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/f0cac58d-c5ca-44c7-ba0e-c0edf9316bb2">
 
      - 각 회사별 컬렉션을 별도로 구성하여, 데이터별로 랜덤 id를 부여함(초기 음료 데이터를 모두 저장하였으나, 사용중 너무 많은 read가 발생하여 firebase 기본 사용량을 초과하여 일부 샘플 데이터만 포함함)
@@ -162,18 +164,23 @@ Waterminder는 2019년 앱스토어 올해의 앱으로 선정된 개인의 수�
 
 ## App 개발 화면
 - 초기 로그인 및 세팅
+  
   <img width="419" alt="스크린샷 2023-07-27 오후 5 07 48" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/4da7c1f1-bb79-432f-a1b4-85e3eec99d08">
 
 - 홈 화면 및 수분 섭취 기록
+  
   <img width="419" alt="스크린샷 2023-07-27 오후 5 08 28" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/6687bf2e-e714-4cb5-8b2f-c2158fceaee1">
 
 - 수분 섭취 기록 조회 및 데이터 분석
+  
   <img width="419" alt="스크린샷 2023-07-27 오후 5 09 50" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/b1f4c1e4-1b64-40cf-9256-51585259cc60">
 
 - 유저 정보 수정 및 로그아웃
+
   <img width="278" alt="스크린샷 2023-07-27 오후 5 10 42" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/f5e5ff0e-234a-4184-8fdd-de764cd67a61">
 
 - 알림 제공
+  
   <img width="142" alt="image" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/22f918c3-6816-4c21-bf1b-f4f3096961bb">
   <img width="142" alt="image" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/5695e023-0457-4561-bd5d-09f23b95f9bb">
   <img width="142" alt="image" src="https://github.com/ChoiBoYoung0330/moressang/assets/65601017/be36b7e2-28bc-4731-89f5-e2f018adef73">
